@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos</title>
+    <link rel="stylesheet" href="../css/Page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 190px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+h1{
+            margin-left:13cm ;
+            color:black;
+            font-weight: bolder;
+            font-size: 50px;
+            text-decoration: underline;
+            margin-top: 2cm;
+        }  
+    </style>
+</head>
+<body>
+
+
+<!--Bouton aller en haut-->
+<button id="myBtn"><a href="#top" style="color: white">Top</a></button>
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+
+
+
+</script>
+<!--Bouton aller en haut-->
+
+
+
+     <!-- la tete de page de chaque page -->
+     <header>
+        <div>
+            <ul class="navigation">
+                <li><a href="/test2/page/Japon.html">Le Japon</a></li>
+                <li><a href="/test2/page/Mexique.html">Le Mexique</a></li>
+                <li><a href="/test2/page/EtatsUnis.html">Les États-Unis</a></li>
+                <li><a href="/test2/page/Quebec.html">Le Québec</a></li>
+                <li><a href="/test2/page/Propos.html">A propos</a></li>
+                <li><a href="/test2/page/FAQ.html">FAQ</a></li>
+                <li><a href="/test2/page/Interets.html">Site dintérets</a></li>
+                <li><a href="/test2/index.html">Accueil</a></li>
+            </ul>              
+        </div>
+    </header>
+    <!-- fin de la tete de page de chaque page -->
+
+
+
+
+    <img style="width: 700px;margin-left: 16cm; border-radius: 1cm;margin-top:1cm " src="../images/index/luttequebec.png" alt="luttequebec">
+
+
+
+
+
+
+<p style="font-size: 25px;margin-top: 2cm;">le site web a ete concu pour les gens qui ont un interet envers la lutte(wrestling) et veulent en aprendre <br> sur
+   plusieur style  de lutte a travers le monde. en passant par le japon avec la NJPW ou par le mexique <br> avec la lucha 
+   libree qui est tres connu. il y a aussi les etat unis avec la fameuse WWE qui est connu <br> partout dans le monde qui 
+   est active depuis plusieurs annee et  toujours aussi forte. il y a aussi dans notre <br> belle province la lutte au quebec
+    qui sont des federation indie qui se demarque  bien au traver du monde. <br> on pourrait nommer la IWS par exemple qui 
+    est tres populaire dans le marche de la lutte au quebec. <br> Vous allez decouvrir plussieur style de lutte avec ce 
+    site web .</p>
+
+
+
+
+
+
+<h1>Notre belle équipe</h1>
+
+
+<img style="border-radius: 1cm; margin-left: 16cm; margin-top: 2cm" src="../images/a propos/360_F_343505809_2lgrInKJxyEGVibsmy6e5NXXqirXFPm7.jpg" alt="">
+
+
+
+
+
+
+
+
+
+
+     <!-- Le bas de page -------------------------------------------------------------------------------------------------------------------- -->
+     <br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+
+        <div>
+            <a href="/test2/page/Plan.html"  class="plan" >Plan du site</a>
+            <ul class="Social">
+                <a href="https://www.facebook.com/profile.php?id=100083502544192" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/PoitratRoger" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/roger-poitrat-b19310245/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/wambledd/" target="_blank" class="fa fa-instagram"></a>
+                <a href="mailto: danick.barondostie@gmail.com " target="_blank" class="fa fa-google"></a>
+            </ul>              
+        </div>
+        <br><br><br><br><br><br><br>
+        <p style="position:relative ;top:-80px;right:-200px">Site compatible sur Chrome, Opéra, Safari, Edge et FireFox</p>
+    </footer>
+    <!-- la fin du bas de page-------------------------------------------------------------------------------------------------------------------- -->
+</body>
+</html>
